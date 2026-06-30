@@ -1,6 +1,6 @@
 # About Subham Sharma
 
-Subham is a Master’s graduate in Applied Computer Science and Software Developer with nearly 2 years of experience in full-stack development, cloud technologies, and technical support. Seeking a challenging role in a growth-oriented organization to leverage expertise in Java, JavaScript, React.js, Next.js, Spring Boot, and cloud platforms to develop scalable software solutions, contribute to innovative projects, and enhance technical and problem-solving skills. 
+I am Subham Sharma. I am a Master’s graduate in Applied Computer Science and Software Developer with nearly 2 years of experience in full-stack development, cloud technologies, and technical support. Seeking a challenging role in a growth-oriented organization to leverage expertise in Java, JavaScript, React.js, Next.js, Spring Boot, and cloud platforms to develop scalable software solutions, contribute to innovative projects, and enhance technical and problem-solving skills. 
 
 I am eager to contribute my skills in JavaScript, Python, Java, SQL, React.js, Node.js, FastAPI, and cloud technologies to a dynamic team. My recent role as an IT Developer Co-op at the Canada Revenue Agency has equipped me with hands-on experience in diagnosing and remediating critical issues in Java-based applications, ensuring high performance and usability. 
 

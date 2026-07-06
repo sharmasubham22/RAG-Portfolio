@@ -20,6 +20,9 @@ class ChatService:
                 input=prompt,
             )
 
+            logger.info("RAW OPENAI RESPONSE:")
+            logger.info(repr(response.output_text))
+
             return response.output_text
 
         except Exception:

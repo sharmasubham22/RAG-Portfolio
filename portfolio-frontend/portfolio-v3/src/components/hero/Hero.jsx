@@ -6,31 +6,23 @@ import { SectionLabel } from "../common/ReusableHeadings";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center">
+    <section id="hero" className="min-h-screen flex items-center">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-4xl"
+          className="max-w-6xl"
         >
           <SectionLabel>Available for Opportunities</SectionLabel>
 
           <h1 className="mb-6 text-4xl md:text-6xl lg:text-8xl font-serif leading-tight my-5">
             Creating{" "}
-            <span className="text-primary text-shadow-[0_10px_25px_rgba(93,164,156,0.4)]">
+            <span className="text-primary text-shadow-[0_10px_25px_rgba(93,164,156,0.6)]">
               <i>immersive</i>
             </span>{" "}
             digital experiences.
           </h1>
-
-          {/* <h2 className="mb-8 text-2xl text-slate-300">
-            {siteConfig.role}
-
-            <span className="mx-3 text-secondary">•</span>
-
-            {siteConfig.secondaryRole}
-          </h2> */}
 
           <p className="mb-10 max-w-2xl text-sm md:text-lg leading text-muted-foreground">
             {siteConfig.description}
@@ -57,8 +49,9 @@ export default function Hero() {
             repeat: Infinity,
             duration: 1.5,
           }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 text-sm text-muted-foreground">
-          ↓ Scroll
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 text-md text-muted-foreground"
+        >
+          ↓↓↓↓↓
         </motion.div>
       </Container>
     </section>

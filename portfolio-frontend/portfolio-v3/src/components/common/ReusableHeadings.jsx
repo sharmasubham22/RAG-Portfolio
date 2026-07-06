@@ -5,7 +5,7 @@ export const GrayTitle = ({ children }) => (
 );
 
 export const AquaTitle = ({ children }) => (
-  <span className="bg-linear-to-br from-[#8CD4CB] via-[#5da49c] to-[#2c766e] bg-clip-text text-transparent">
+  <span className="bg-linear-to-br from-primary via-[#5da49c] to-[#2c766e] bg-clip-text text-transparent">
     {children}
   </span>
 );

@@ -9,12 +9,12 @@ const navItems = [
     href: "#about",
   },
   {
-    label: "Experience",
-    href: "#experience",
-  },
-  {
     label: "Projects",
     href: "#projects",
+  },
+  {
+    label: "Experience",
+    href: "#experience",
   },
   {
     label: "Contact",
@@ -25,7 +25,7 @@ const navItems = [
 export default function Navbar() {
   return (
     <div>
-      <header className="fixed inset-x-0 top-0 z-50 border-b border-border/50 backdrop-blur-xl">
+      <header className="fixed inset-x-0 top-0 z-50 border border-border/50 rounded-full mt-5 backdrop-blur-xl max-w-6xl mx-auto">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
           <a
             href="#hero"

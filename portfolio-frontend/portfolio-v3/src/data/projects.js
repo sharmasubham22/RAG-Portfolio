@@ -3,7 +3,7 @@ import img from '@/assets/hero.png'
 export const projects = [
   {
     id: 1,
-    title: "AI Portfolio",
+    title: "Portfolio-v2",
     subtitle: "RAG Powered Portfolio",
     description:
       "Interactive portfolio website powered by OpenAI, FastAPI and Qdrant. Visitors can ask questions about my experience, projects and skills.",
